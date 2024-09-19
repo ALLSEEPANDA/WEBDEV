@@ -1,18 +1,11 @@
 h1 {
+    font-family: league spartan;
+    color: #ffa511;
     text-align: center;
-    text-decoration: red dotted underline;
-}
-
-h3 {
-    text-align: start;
-    text-decoration: pink line-through;
-}
-
-p {
-    text-align: justify;
-}
-
-h2 {
-    font-weight: 800;
-    text-decoration: double blue overline;
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-decoration: teal double underline;
+    text-transform: uppercase;
 }
