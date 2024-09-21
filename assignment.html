@@ -3,26 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CSS Assignment-1</title>
+    <link rel="stylesheet" href="abc.css" />
 </head>
-<body>
-    <form action="/action">
-        <h3>Feedback Form</h3>
+<body style="background-color: wheat;">
+<!-- Poem Name -->
+<h1>Ozymandias</h1>
+<!-- Poet's Name -->
+<h3>by Percy Bysshe Shelley</h3>
+<!-- Poem -->
+<p>
+I met a traveller from an antique land,<br />
+Who said—“Two vast and trunkless legs of stone<br />
+Stand in the desert. . . . Near them, on the sand,<br />
+Half sunk a shattered visage lies, whose frown,<br />
+And wrinkled lip, and sneer of cold command,<br />
+Tell that its sculptor well those passions read<br />
+Which yet survive, stamped on these lifeless things,<br />
+The hand that mocked them, and the heart that fed;<br />
+And on the pedestal, these words appear:<br />
+My name is <span class="Ozymandias">Ozymandias</span>, King of Kings;<br />
+Look on my Works, ye Mighty, and despair!<br />
+Nothing beside remains. Round the decay<br />
+Of that colossal Wreck, boundless and bare<br />
+The lone and level sands stretch far away.”<br />
+</p>
+<hr />
+<h4>
+Read up more about the poem on
+<a
+href="https://en.wikipedia.org/wiki/Ozymandias">Wikipedia</a>
+</h4>
 
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" placeholder="Write your name"><br><br>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="Write your email"><br><br>
-
-        <label for="message">Message:</label><br>
-        <textarea name="messsage" id="message" rows="5" cols="30"></textarea><br><br>
-
-        <label for="rate">Rate us out of 5:</label><br>
-        <input type="radio" id="rate" name="rate" value="1"><label>1</label><br>
-        <input type="radio" id="rate" name="rate" value="2"><label>2</label><br>
-
-        <button>Send your message!</button>
-    </form>
+<textarea placeholder="Leave your comments here
+..."></textarea>
+<br /><br />
+<button>Comment</button>
 </body>
 </html>
