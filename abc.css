@@ -1,28 +1,22 @@
-p {
-    color: 	red;
+#mainTopic{
+    color: blue;
+}
+
+*{
     text-align: center;
 }
 
-h1,h3,h4 {
-    text-align: center;
+h1,h3,h5{
+    font-family: Georgia;
 }
 
-h3 {
-    color: black;
+.para{
+    color: white;
+    background-color: cornflowerblue;
 }
 
-body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-button {
-    background-color: white;
-    color: blueviolet;
+div button{
+    background-color: purple;
+    color: azure;
 }
 
-textarea {
-    color: #000;
-}
-
-.Ozymandias {
-    text-decoration: underline;
-}
