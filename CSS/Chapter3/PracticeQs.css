@@ -1,25 +1,8 @@
-div{
-    height: 200px;
-    width: 70px;
+span{
+    /* background-color: pink; */
     border: 2px solid black;
-}
-
-div div{
-    height: 50px;
-    width: 50px;
-    border: 2px solid black;
-    margin: 10px;
-    border-radius: 50%;
-}
-
-div div#red{
-    background-color: red;
-}
-
-div div#yellow{
-    background-color: yellow;
-}
-
-div div#green{
-    background-color: green;
+    height: 100px;
+    width: 200px;
+    padding: 50px;
+    margin: 20px;
 }
