@@ -2,7 +2,7 @@ div{
     height: 100px;
     width: 100px;
     background-color: #4dff00ff;
-    transition: margin-top 2s ease-in;
+    transition: margin-top 2s ease-in 0.2s;
     margin: 0 auto;
     margin-top: 10px;
 }
