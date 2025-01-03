@@ -1,19 +1,19 @@
-.container{
+/* .container{
     width: 600px;
     height: 300px;
     background-color: yellow;
     display: grid;
     /* grid-template-rows: 50px 50px 50px 50px 50px;
     grid-template-columns: 200px 200px 200px; */
-    grid-template-rows: repeat(3, 1fr);
+    /* grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px 10px;
     /* justify-items: center;
     align-items: center; */
-    place-items: center;
-}
+    /* place-items: center;
+} */
 
-.item{
+/*.item{
     width: 100px;
     height: 50px;
     background-color: greenyellow;
@@ -22,7 +22,7 @@
 }
 .one{
     place-self: start;
-}
+} */
 /* .one{
     justify-self: end;
     align-self: end;
@@ -38,3 +38,42 @@
     grid-row-end: 3; 
     grid-row: 1 / span 3;
 } */
+ 
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+    animation-name: widthAnimate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes widthAnimate{
+    from{
+        width: 10px;
+    }
+    to{
+        width: 400px;
+    }
+} 
+@keyframes fontAnimation{
+    from{
+        font-size: 20px;
+    }
+    to{
+        font-size: 40px;
+    }
+}
+
+@keyframes colorAnimate{
+    from{
+        background-color: green;
+    }
+    to{
+        background-color: blue;
+    }
+    
+}
