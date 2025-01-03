@@ -39,20 +39,20 @@
     grid-row: 1 / span 3;
 } */
  
-.box{
+/* .box{
     height: 100px;
     width: 300px;
     background-color: pink;
-    /* animation-name: widthAnimate;
+    animation-name: widthAnimate;
     animation-duration: 3s;
     animation-timing-function: ease-in;
     animation-delay: 0;
     animation-iteration-count: infinite;
-    animation-direction: alternate-reverse; */
+    animation-direction: alternate-reverse;
     animation: colAnimate 3s ease-in 0s infinite alternate-reverse;
-}
+} */
 
-@keyframes colAnimate{
+/* @keyframes colAnimate{
     0% {
         background-color: green;
     }
@@ -83,4 +83,5 @@
         background-color: blue;
     }
     
-}
+} */
+
