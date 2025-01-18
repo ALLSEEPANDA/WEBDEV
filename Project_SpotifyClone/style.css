@@ -218,6 +218,8 @@ a {
 
 .album {
     width: 25%;
+    display: flex;
+    align-items: center;
 }
 
 .player {
@@ -225,7 +227,11 @@ a {
 }
 
 .controls {
-    width: 25%
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 1.75rem;
 }
 
 .player-controls {
@@ -271,4 +277,73 @@ a {
     background-color: #1bd760;
     border-radius: 50%;
     margin-top: -6px;
+}
+
+.album-picture {
+    height: 3.3rem;
+    margin-left: 0.5rem;
+    border-radius: 0.25rem;
+}
+
+.album-icon2 {
+   height: 2.5rem;
+   margin-top: 0.25rem;
+}
+
+.album-icon1 {
+    opacity: 0.7;    
+ }
+
+.album-icons {
+    margin-left: 1rem;
+}
+
+.album-details {
+    margin-left: 0.75rem;   
+}
+
+.album-title {
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+.album-artist {
+    font-size: 0.75rem;
+    margin-top: -0.75rem;
+    opacity: 0.75;
+}
+
+.controls-icon1 {
+    height: 2.75rem;
+    margin-right: 0.5rem;
+}
+
+.controls-icon2 {
+    opacity: 0.75;
+    margin-right: 0.75rem;
+}
+
+.controls-icon3 {
+    height: 1.05rem;
+    opacity: 0.65;
+    margin-right: 0.5rem;
+}
+
+.sound-bar::-webkit-slider-runnable-track {
+    background-color: #fff;
+    border-radius: 100px;
+    height: 0.2rem;
+}
+
+.sound-bar::-webkit-slider-thumb {
+    appearance: none;
+    margin-top: -6px;
+    opacity: 0;
+}
+
+@media (max-width: 1100px) {
+    .c-hide {
+        display: none;
+    }
 }
